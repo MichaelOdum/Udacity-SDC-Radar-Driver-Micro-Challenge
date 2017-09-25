@@ -121,7 +121,7 @@ int main(int argc, char *argv[])
   if (argc != 2) {
     printUsageAndExit(argv[0]);
   }
-
+  else
   {
     char *endPtr = NULL;
     errno = 0;
